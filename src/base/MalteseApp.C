@@ -28,6 +28,7 @@ MalteseApp::~MalteseApp()
 {
 }
 
+extern "C" void MalteseApp__registerApps() { MalteseApp::registerApps(); }
 void
 MalteseApp::registerApps()
 {
